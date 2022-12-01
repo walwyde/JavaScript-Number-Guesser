@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+    <h1 class="my-1">Number Guesser</h1>
+
+    <span class="display"></span>
+
+    <div class="intro">
+        <h4 class="welcomeText"> Welcome To Number Guesser, Select a Mode To Begin</h4>
+
+        <ul class="modeButtons">
+            <li class="modeButton"><a href="#" class="btn">Easy</a></li>
+            <li class="modeButton"><a href="#" class="btn">Hard</a></li>
+        </ul>
+    </div>
+
+    <form class="my-1">
+        <div class="form-group">
+            <label for="input">Input Guess</label>
+            <input type="number" id="guess" name="input" placeholder="guess a number"/>
+        </div>
+
+        <div class="form-group">
+            <input class='btn my-1' type="submit" value="Guess">
+        </div>
+
+    </form>
+
+
+    <input class="btn btn-danger hidden" id="reset" type="submit" value="Reset">
+
+</div>
+
+   <script src="./index.js"></script> 
+</body>
+</html>

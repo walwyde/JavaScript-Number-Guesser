@@ -1,0 +1,85 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body,
+html {
+    background: #282828;
+    color: #dcd
+}
+.warning {
+    background: orangered;
+}
+
+.success {
+    background: yellowgreen;
+}
+
+.bg-primary {
+    background: #dcd;
+}
+
+.alert {
+    text-align: center;
+    padding: 0.5rem;
+    color:#282828;
+    transition: all 0.6s ease-in;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.my-1 {
+    margin: 0.5rem auto;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type='number'] {
+    padding: 0.75rem;
+    border: none;
+}
+
+.form-group input[type='number']:focus {
+border: none;
+outline: none;
+}
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #dcd
+}
+
+.hidden {
+    display: none;
+}
+
+.modeButtons {
+    display: flex;
+}
+
+.modeButton {
+    list-style: none;    
+    margin: 0.5rem;
+}
+
+.modeButtons a {
+    border-radius: 25%;
+    text-decoration: none;
+}
+.current a {
+    background: yellowgreen;
+    }
+
+.winText {
+    color: green;
+}
+
+.dangerText {
+    color: red;
+}
